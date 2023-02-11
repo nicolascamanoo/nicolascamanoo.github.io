@@ -1,0 +1,199 @@
+
+.card:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+   
+ 
+    
+}
+.filosofia { 
+    background: linear-gradient(90deg, rgb(90, 89, 137), rgb(90, 38, 139), rgb(185, 134, 215)); 
+    animation: filosofia2 20s linear infinite;
+  }
+.btn-primary{
+    background-color: rgb(90, 38, 139) ;
+    border: 0ch;
+}
+
+.text-terciario{
+    color:rgb(27, 27, 105)
+}
+.imagenGit{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    right: 100%;
+    padding: 0;
+    animation-name: mover;
+    animation-duration: infinite;
+}
+
+
+
+@keyframes mover {
+    50%{left: 60%;}
+}
+
+
+.avatar:hover{
+    transform: scale(1.08);
+}
+
+.corrimiento:hover{
+    animation-name: corrimientoo;
+    
+    animation-fill-mode: forwards;
+}
+@keyframes corrimientoo {
+    100%{
+        opacity: 0.5;
+        transform: scale(1.08);
+    }   
+}
+
+.alturaDef{
+    height: 650px;
+}
+
+.certificados{
+    grid-template-columns: 100px 100px 100px;
+
+}
+
+
+.certificate-section {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  justify-content: center;
+  }
+  
+  .certificate-card {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 60px;
+     justify-content: center;
+  }
+  
+  .certificate-header {
+    background-color: lightgray;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    justify-content: center;
+  }
+
+ 
+  
+
+  
+  .fondoefecto{
+    background: linear-gradient(90deg, rgb(90, 89, 137), rgb(90, 38, 139), rgb(185, 134, 215));
+    background-position: 0% 0%;
+    animation: fondo2 1s linear infinite;
+ }
+ 
+ .fondoefecto:hover {
+    background-position: 100% 0%;
+    background: linear-gradient(90deg, rgb(90, 129, 37), rgb(10, 56, 339), rgb(185, 134, 245));
+ }
+
+ .moving-background {
+    background: linear-gradient(90deg, rgb(90, 89, 137), rgb(90, 38, 139), rgb(185, 134, 215));
+  background-size: cover;
+  animation: move-background 1.8s linear infinite;
+}
+
+@keyframes move-background {
+  from {
+    background-position: 100% 40%;
+  }
+  to {
+    background: linear-gradient(90deg,  rgb(90, 38, 139), rgb(185, 134, 215),rgb(90, 89, 137));
+  }
+  from {
+    background-position: 50% 40%;
+  }
+  to {
+    background: linear-gradient(90deg,   rgb(185, 134, 215),rgb(90, 89, 137),rgb(90, 38, 139));
+  }
+
+}
+
+.centrar{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+justify-content: center;
+text-align:center
+}
+
+.fotoEjercito{
+  width: 50px;
+  height: 50px;
+
+}
+
+.linkedinEjercito{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+
+.tarjetaExperiencia
+{
+margin: 10px;
+
+}
+
+.imagenExperiencia{
+  width: 145px;
+  height: 140px;
+
+}
+
+.text-white{
+  color: white;
+}
+
+.colorPagina{
+  color: rgb(90, 38, 139) ;
+
+}
+
+.correo{
+  right: -70%;
+}
+
+.bg-grey{
+  
+  background: linear-gradient(90deg, rgb(148, 141, 148), rgb(195, 193, 196),rgb(126, 126, 126));
+}
+
+.imagendepie{
+  width: 120px;
+  height: 120px;
+
+}
+
+.moving-background2 {
+  background-color: white;
+background-size: cover;
+animation: move-background2 1.8s linear infinite;
+}
+
+@keyframes move-background2 {
+from {
+  background-position: 100% 40%;
+}
+to {
+ background-color: rgb(240, 235, 235);
+}
+}
