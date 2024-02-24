@@ -197,3 +197,15 @@ to {
  background-color: rgb(240, 235, 235);
 }
 }
+
+
+
+.centrado {
+  width: 50%; /* Puedes ajustar el ancho según sea necesario */
+  margin: 0 auto; /* Esto centra horizontalmente el div */
+}
+
+.imagen-achicada {
+  width: 400px; /* Puedes ajustar el ancho según tus necesidades */
+  height: auto; /* Esto mantendrá la proporción original de la imagen */
+}
